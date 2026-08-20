@@ -2,7 +2,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-// klllllll
+
 export default function WelcomeScreen() {
   return (
     <LinearGradient
