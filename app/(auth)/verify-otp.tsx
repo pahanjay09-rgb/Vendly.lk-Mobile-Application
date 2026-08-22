@@ -18,9 +18,12 @@ export default function VerifyOtpScreen() {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => router.back()}>
-        <Text style={styles.backArrow}>←</Text>
-      </TouchableOpacity>
+      <TouchableOpacity
+  style={styles.verifyButton}
+  onPress={() => router.push('/(auth)/business-category')}
+>
+  <Text style={styles.verifyButtonText}>Verify Code</Text>
+</TouchableOpacity>
 
       <Text style={styles.heading}>Verification</Text>
 
